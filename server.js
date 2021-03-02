@@ -11,6 +11,7 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 //Database
 var configDB = require('./config/database.js');
+var configDB = require('./config/database.js');
 //configurata and connection to dtabase
 mongoose.connect(configDB.url);
 require('./config/passport')(passport);
