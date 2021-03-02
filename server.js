@@ -5,6 +5,7 @@ var port =process.env.PORT || 1234;
 var mongoose = require('mongoose');
 var mongoose = require('mongoose');
 var passport = require('passport');
+var passport = require('passport');
 var flash = require('connect-flash');
 var morgan = require('morgan');
 var cookieParser = require('cookie-parser');
